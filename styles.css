@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html{
+    height: 100vh;
+    background-color: rgb(50, 62, 85);
+}
+
+main{
+    margin: 30vh 0;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    font: italic bold 1rem sans-serif;
+    text-shadow: 0.3rem 0.3rem 0.3rem black;
+    color: white;
+}
+
+.Dice--Title{
+    font: italic bold 5rem Sans-Serif;
+    text-shadow: 0.5rem 0.5rem 0.5rem black;
+    color: rgb(32, 173, 150);
+    text-align: center;
+}
+
+/*Dice-Player-Title-Part*/
+
+.Dice--Player{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.Dice--Player_Title{
+    font: italic bold 1.5rem 'Franklin Gothic Medium';
+    color: rgb(32, 173, 150);
+    margin: 0 5rem;
+}
+
+/*Dice-Section*/
+
+.Dices{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.Dice{
+    margin: 0 1rem;
+}
